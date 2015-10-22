@@ -51,8 +51,7 @@ public class Account {
      */
     public static void transfer(double amount, Account source, Account target) {
         source.debit(amount);
-        target.credit(amount);
-        
+        target.credit(amount);        
     }
 
     public Customer getCustomer() {
